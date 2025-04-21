@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>task15</title>
+    <script>
+        document.write("<h3>1. ANS : </h3>");
+        let numbers = [5, 3, 8, 1, 4];
+        document.write("Original array: " + numbers + "<br>");
+        numbers.sort(function(a, b) {
+            return a - b;
+        });
+        document.write("Sorted array: " + numbers + "<br>");
+
+        document.write("<h3>2. ANS : </h3>");
+        let array1 = [4,7,8];
+        let array2 = [45,67,5];
+        let concatenatedArray = array1.concat(array2);
+        document.write("Array 1: " + array1 + "<br>");
+        document.write("Array 2: " + array2 + "<br>");
+        document.write("Concatenated array: " + concatenatedArray + "<br>");
+
+        document.write("<h3>3. ANS : </h3>");
+        let fruits = ["Apple", "Banana", "Orange"];
+        document.write("Original array: [" + fruits + "]<br>");   
+        fruits.shift();
+        document.write("Array after removing first element: [" + fruits + "]<br>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
